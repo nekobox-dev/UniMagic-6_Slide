@@ -1,0 +1,68 @@
+/* @theme unimagic */
+
+@import 'default';
+
+/* 変更・移動された時のマーカー */
+.changed,
+section.changed h1,
+section.changed h2,
+section.changed h3,
+section.changed p,
+section.changed li,
+section.moved::after {
+    background-color: rgba(255, 255, 0, 0.25);
+}
+
+/* 追加された時のマーカー */
+.added,
+section.added h1,
+section.added h2,
+section.added h3,
+section.added p,
+section.added li,
+section.added::after {
+    background-color: rgba(0, 255, 0, 0.25);
+}
+
+/* 削除された時のマーカー */
+.removed,
+section.removed h1,
+section.removed h2,
+section.removed h3,
+section.removed p,
+section.removed li,
+section.removed::after {
+    background-color: rgba(255, 0, 0, 0.25);
+}
+
+/* タイトルコールの設定 */
+section.titlecall {
+    color: #fff;
+    background-color: #246;
+}
+
+section.titlecall h1 {
+    color: #fff;
+}
+
+section.titlecall header,
+section.titlecall footer {
+    color: #ccc;
+}
+
+section:not(.titlecall) span:not(.changed, .added, .removed) {
+    color: #246;
+}
+
+/* ページ番号の設定 */
+section::after {
+    color: #1f2823;
+
+    /* 表示を「現在のページ数 / トータルのページ数」にする */
+    content: attr(data-marpit-pagination) " / " attr(data-marpit-pagination-total)
+}
+
+section.bg::after,
+section.titlecall::after {
+    color: #fff;
+}
