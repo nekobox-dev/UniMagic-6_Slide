@@ -114,7 +114,7 @@ size: 16:9
 
 <!-- _class: bg -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=Dissolve(透明度)の動作.gif)
+![bg right](../images/2_1_1_Dissolve_透明度.gif)
 
 ### <span>Dissolve(透明度)</span>の動作
 テクスチャの透明度で溶ける部分を指定
@@ -123,27 +123,45 @@ size: 16:9
 
 <!-- _class: bg -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=Dissolve(UV)の動作.gif)
+![bg right](../images/2_2_1_Dissolve_UV_点.gif)
 
-### <span>Dissolve(UV)</span>の動作
+### <span>Dissolve(UV:点)</span>の動作
 テクスチャの中心からの距離もしくは方向で溶ける部分を指定
 
 ---
 
 <!-- _class: bg -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=Dissolve(座標)の動作.gif)
+![bg right](../images/2_2_2_Dissolve_UV_線.gif)
 
-### <span>Dissolve(座標)</span>の動作
+### <span>Dissolve(UV:線)</span>の動作
+テクスチャの中心からの距離もしくは方向で溶ける部分を指定
+
+---
+
+<!-- _class: bg -->
+
+![bg right](../images/2_3_1_Dissolve_座標_点.gif)
+
+### <span>Dissolve(座標:点)</span>の動作
 ルートボーンや原点からの距離もしくは方向で溶ける部分を指定
 
 ---
 
 <!-- _class: bg -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=Dissolve(座標:線)のマテリアルを2つ同時に入れた時の動作.gif)
+![bg right](../images/2_3_2_Dissolve_座標_線.gif)
 
-### <span>Dissolve(座標:線)</span>のマテリアルを2つ同時に入れた時の動作
+### <span>Dissolve(座標:線)</span>の動作
+ルートボーンや原点からの距離もしくは方向で溶ける部分を指定
+
+---
+
+<!-- _class: bg -->
+
+![bg right](../images/2_4_1_Dissolve_座標_線上下.gif)
+
+### <span>Dissolve(座標:線の上下)</span>のマテリアルを2つ同時に入れた時の動作
 何かが消えると同時に何かが現れるような表現ができる
 
 ---
@@ -203,7 +221,7 @@ size: 16:9
 
 <!-- _class: bg -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=Stencil(Reader)の動作.gif)
+![bg right](../images/4_1_Stencil_Reader.gif)
 
 ### Readerの動作
 
@@ -213,7 +231,7 @@ Writer越しに見たときにRefの値が同じなら非表示 (NotEqual)
 
 <!-- _class: bg -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=Stencil(Reader反転)の動作.gif)
+![bg right](../images/4_2_Stencil_Reader反転.gif)
 
 ### Reader(反転)の動作
 
@@ -223,7 +241,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=Stencil(ReaderとReader反転)のマテリアルを重ね合わせた時の動作.gif)
+![bg right](../images/4_3_Stencil_Reader+Reader反転.gif)
 
 ### ReaderとReader(反転)のマテリアルを2つ同時に入れた時の動作
 
