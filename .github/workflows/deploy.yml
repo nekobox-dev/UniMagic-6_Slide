@@ -1,4 +1,4 @@
-name: Build and Deploy Marp Slides
+name: deploy-marp-slide
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
       - name: Build slide
         run: |
           mkdir -p public
-          npx marp slide.md --theme themes/Unimagic_Theme.css --output public/index.html
+          npx marp slide.md --theme themes/Unimagic_Theme.css --output public/index.html --html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
