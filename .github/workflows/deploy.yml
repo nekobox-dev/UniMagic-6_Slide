@@ -23,6 +23,7 @@ jobs:
       - name: Build slide
         run: |
           mkdir -p public
+          cp -r images public/images
           npx marp slide.md --theme themes/Unimagic_Theme.css --output public/index.html --html
 
       - name: Deploy to GitHub Pages
