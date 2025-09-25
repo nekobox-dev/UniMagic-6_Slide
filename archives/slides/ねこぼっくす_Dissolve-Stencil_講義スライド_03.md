@@ -27,7 +27,7 @@ size: 16:9
 
 <!-- _class: bg -->
 
-![bg right](../images/Nekobox_Picture_01.png)
+![bg right](../../images/Nekobox_Picture_01.png)
 
 ## 講師紹介
 名前: ねこぼっくす
