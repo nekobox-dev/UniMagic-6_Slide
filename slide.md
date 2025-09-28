@@ -277,15 +277,14 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-## 作例紹介・実演コーナー
-- お着換えギミック
-↑できてない！
-- 4次元ポケット
-↑できてない！
-- 絵画ギミック
-↑できてる！
+<!-- _class: bg -->
 
-本番までにギミック制作がんばります！
+![bg right](images/5_1_Dissolve+Stencil.gif)
+
+## <span>Dissolve</span> と <span>Stencil</span> を<br>組み合わせたら
+
+額縁をルートボーンとStencil(Writer)に設定すると...
+**額縁の外と内で別々のモノが見える**ようになる！
 
 ---
 
