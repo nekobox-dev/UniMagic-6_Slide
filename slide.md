@@ -49,16 +49,15 @@ size: 16:9
 
 <!-- _class: changed -->
 
-![bg width:100% right:30%](images/QRCode_Github_UniMagic-6_Slide.png)
-
 ## 講義にあたってのお願い
 
-- 講師をShow Avatar (シフォンちゃんが見えたらOK)
-- イヤーマフの解除 (テキストボックスの視認性向上)
-- 講義資料を開く (QRコード/URL: <br>https://nekobox-dev.github.io/UniMagic-6_Slide/ )
+- **必須**
+  - 講師をShow Avatar (シフォンちゃんが見えたらOK！)
+  - イヤーマフの解除 (テキストボックスの視認性向上のため)
+- **できたらより便利**
+  - 講義資料を手元で開く (Discordのクラスチャンネルに資料有り)
 
 講義進行のためご協力をお願いします！
-
 (できた人は手を挙げるボタンで教えてください)
 
 ---
