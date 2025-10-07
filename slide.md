@@ -15,8 +15,8 @@ size: 16:9
   - [x] Dissolve 基礎
   - [x] Stencil 基礎
   - [ ] 着替えギミック
-  - [ ] 4次元ポケット
-  - [ ] 目に髪がかかっても目が浮いて見える
+  - [x] 4次元ポケット (Rejected)
+  - [x] 目に髪がかかっても目が浮いて見える (Rejected)
   - [ ] 箱の中だけ別世界
   - [ ] 
 - [ ] GIF
@@ -24,8 +24,8 @@ size: 16:9
   - [x] Stencil 基礎
   - [ ] 絵画ギミック
   - [ ] 着替えギミック
-  - [ ] 4次元ポケット
-  - [ ] 目に髪がかかっても目が浮いて見える
+  - [x] 4次元ポケット (Rejected)
+  - [x] 目に髪がかかっても目が浮いて見える (Rejected)
   - [ ] 箱の中だけ別世界
   - [ ] 絵画ギミックの作り方 (Unity)
 ==================================================
@@ -96,8 +96,7 @@ size: 16:9
 
 <!-- _class: bg -->
 
-![bg right vertical](https://placehold.jp/32/444444/ffffff/720x1280.png?text=お着替えギミックの動作.gif)
-![bg](https://placehold.jp/32/444444/ffffff/720x1280.png?text=4次元ポケット.gif)
+![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=お着替えギミックの動作.gif)
 
 ## <span>Dissolve</span> ってこんな感じ
 
@@ -196,8 +195,7 @@ size: 16:9
 
 <!-- _class: bg -->
 
-![bg right vertical](https://placehold.jp/32/444444/ffffff/720x1280.png?text=目に髪がかかっても目が浮いて見える様子.gif)
-![bg](https://placehold.jp/32/444444/ffffff/720x1280.png?text=箱の中だけ別世界の動作.gif)
+![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=箱の中だけ別世界の動作.gif)
 
 ## <span>Stencil</span>ってこんな感じ
 
