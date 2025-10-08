@@ -333,7 +333,18 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ![bg right](./images/6_1_2.gif)
 
-### 1-2. 額縁の前面・背面を作成
+### 1-2. 額縁のTransformを調整
+- **位置を調整:** <br>額縁の`Transform > Position`の`X`を0、`Y`を0.75、`Z`を1にする
+- **回転を調整:** <br>額縁の`Transform > Rotation`の`X`を0、`Y`を180、`Z`を0にする
+- **大きさを調整:** <br>額縁の`Transform > Scale`の`X`を1、`Y`を1、`Z`を1.5にする
+
+---
+
+<!-- _class: bg changed -->
+
+![bg right](./images/6_1_3.gif)
+
+### 1-3. 額縁の前面・背面を作成
 - **Quadの生成方法:** <br>額縁の中でHierarchyを右クリックして`3D Object > Quad`
 - **前面を作成:** <br>前面用のQuadを生成後に`Transform > Rotation > Y`を180にして正面(+Z)に向ける
 - **背面を作成:** <br>背面用のQuadを生成後に`Transform > Rotation > Y`を-180にして背面(-Z)に向ける
@@ -342,9 +353,9 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](./images/6_1_3.gif)
+![bg right](./images/6_1_4.gif)
 
-### 1-3. 額縁の上下のフレームを作成
+### 1-4. 額縁の上下のフレームを作成
 - **Cubeの生成方法:** <br>額縁の中でHierarchyを右クリックして`3D Object > Cube`
 - **上下の大きさを設定:** <br>上下用のCubeを生成後に`Transform > Scale`の`X`を1、`Y`と`Z`を0.01にする
 - **上下の位置を設定** <br>`Transform > Position`の`X`を0、`Y`を0.5と-0.5、`Z`を0にする
@@ -353,9 +364,9 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](./images/6_1_4.gif)
+![bg right](./images/6_1_5.gif)
 
-### 1-4. 額縁の側面のフレームを作成
+### 1-5. 額縁の側面のフレームを作成
 - **Cubeの生成方法:** <br>額縁の中でHierarchyを右クリックして`3D Object > Cube`
 - **側面の大きさを設定:** <br>側面用のCubeを生成後に`Transform > Scale`の`X`を1、`Y`と`Z`を0.01にする
 - **側面の位置を設定** <br>`Transform > Position`の`X`を0.5と-0.5、`Y`を0、`Z`を0にする
@@ -364,9 +375,9 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](./images/6_1_5.gif)
+![bg right](./images/6_1_6.gif)
 
-### 1-5. 額縁の前面・背面のマテリアルを作成
+### 1-6. 額縁の前面・背面のマテリアルを作成
 - **マテリアルの生成方法:** <br>Projectウィンドウを右クリックして`Create > Material`
 - **liltoonに変換:** <br>Inspectorウィンドウ上部の`Standard`を選択してリストの下部にある`liltoon`を選択
 
@@ -374,9 +385,9 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](./images/6_1_6.gif)
+![bg right](./images/6_1_7.gif)
 
-### 1-6. 額縁の前面・背面にマテリアルを適用
+### 1-7. 額縁の前面・背面にマテリアルを適用
 - **前面のマテリアルを設定:** <br>作成したマテリアルを前面Quadにドラッグ&ドロップして適用する
 - **背面のマテリアルを設定:** <br>作成したマテリアルを背面Quadにドラッグ&ドロップして適用する
 
@@ -384,9 +395,9 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](./images/6_1_7.gif)
+![bg right](./images/6_1_8.gif)
 
-### 1-7. 額縁の前面・背面を半透明にする
+### 1-8. 額縁の前面・背面を半透明にする
 - **半透明:** <br>`描画モード`を半透明、基本設定の`ZWrite`のチェックを外す
 - **Unlit化:** <br>`ライティング/明るさ設定`の`Unlit化`を1にする
 - **透明度:** <br>`メインカラー/透過設定`の色の`A`を1にする
