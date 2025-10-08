@@ -47,8 +47,6 @@ size: 16:9
 
 ---
 
-<!-- _class: changed -->
-
 ## 講義にあたってのお願い
 
 - **必須**
@@ -297,8 +295,6 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: changed -->
-
 ## 絵画ギミックの作り方
 1. シンプルな額縁を作成
 2. アバターの全メッシュのルートボーンを額縁に設定
@@ -319,7 +315,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_1_1.gif)
 
@@ -329,7 +325,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_1_2.gif)
 
@@ -340,7 +336,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_1_3.gif)
 
@@ -351,7 +347,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_1_4.gif)
 
@@ -362,7 +358,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_1_5.gif)
 
@@ -373,7 +369,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_1_6.gif)
 
@@ -384,7 +380,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_1_7.gif)
 
@@ -393,7 +389,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_1_8.gif)
 
@@ -403,7 +399,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_1_9.gif)
 
@@ -413,7 +409,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_1_10.gif)
 
@@ -424,7 +420,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_2_1.gif)
 
@@ -434,7 +430,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_2_2.gif)
 
@@ -444,7 +440,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_3.gif)
 
@@ -454,7 +450,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_4_1.gif)
 
@@ -464,7 +460,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_4_2.gif)
 
@@ -474,7 +470,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_5_1.gif)
 
@@ -484,7 +480,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_5_2.gif)
 
@@ -494,7 +490,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_5_3.gif)
 
@@ -505,7 +501,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_5_4.gif)
 
@@ -515,7 +511,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_5_5.gif)
 
@@ -528,7 +524,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_5_6.gif)
 
@@ -539,7 +535,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_6_1.gif)
 
@@ -549,7 +545,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_6_2.gif)
 
@@ -560,14 +556,14 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ## 6-3.外側と同じようにマテリアルプリセットに登録・適用を行う
 ### ※手抜きではありません！！！(?)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_7_1.gif)
 
@@ -577,7 +573,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_7_2.gif)
 
@@ -587,7 +583,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ---
 
-<!-- _class: bg changed -->
+<!-- _class: bg -->
 
 ![bg right](./images/6_7_3.gif)
 
