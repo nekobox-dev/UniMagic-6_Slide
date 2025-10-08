@@ -93,11 +93,13 @@ size: 16:9
 
 <!-- _class: bg -->
 
+<!--
 ![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=お着替えギミックの動作.gif)
 
 ## <span>Dissolve</span> ってこんな感じ
 
 ---
+-->
 
 ## <span>Dissolve(溶解)</span> とは
 - **条件を満たした部分を(溶かしたように)見えなくするモノ**
@@ -192,11 +194,13 @@ size: 16:9
 
 <!-- _class: bg -->
 
+<!--
 ![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=箱の中だけ別世界の動作.gif)
 
 ## <span>Stencil</span>ってこんな感じ
 
 ---
+-->
 
 ## <span>Stencil(型紙)</span> とは
 - **条件を満たした部分を(型紙のように)切り抜くモノ**
