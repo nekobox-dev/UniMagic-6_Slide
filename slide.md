@@ -336,7 +336,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 ### 1-2. 額縁のTransformを調整
 - **位置を調整:** <br>額縁の`Transform > Position`の`X`を0、`Y`を0.75、`Z`を1にする
 - **回転を調整:** <br>額縁の`Transform > Rotation`の`X`を0、`Y`を180、`Z`を0にする
-- **大きさを調整:** <br>額縁の`Transform > Scale`の`X`を1、`Y`を1、`Z`を1.5にする
+- **大きさを調整:** <br>額縁の`Transform > Scale`の`X`を1、`Y`を1.5、`Z`を1にする
 
 ---
 
@@ -368,7 +368,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ### 1-5. 額縁の上下のフレームを作成
 - **Cubeの生成方法:** <br>額縁の中でHierarchyを右クリックして`3D Object > Cube`
-- **上下の大きさを設定:** <br>上下用のCubeを生成後に`Transform > Scale`の`X`を1、`Y`と`Z`を0.01にする
+- **上下の大きさを設定:** <br>上下用のCubeを生成後に`Transform > Scale`の`X`を1、`Y`を0.01、`Z`を0.01にする
 - **上下の位置を設定** <br>`Transform > Position`の`X`を0、`Y`を0.5と-0.5、`Z`を0にする
 
 ---
@@ -379,7 +379,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ### 1-6. 額縁の側面のフレームを作成
 - **Cubeの生成方法:** <br>額縁の中でHierarchyを右クリックして`3D Object > Cube`
-- **側面の大きさを設定:** <br>側面用のCubeを生成後に`Transform > Scale`の`X`を1、`Y`と`Z`を0.01にする
+- **側面の大きさを設定:** <br>側面用のCubeを生成後に`Transform > Scale`の`X`を0.01、`Y`を1、`Z`を0.01にする
 - **側面の位置を設定** <br>`Transform > Position`の`X`を0.5と-0.5、`Y`を0、`Z`を0にする
 
 ---
