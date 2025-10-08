@@ -307,6 +307,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 5. 額縁の外側用の全マテリアルにStencil(Reader)とDissolve(座標:線+Z)を設定
 6. 額縁の内側用の全マテリアルにStencil(Reader:反転)にDissolve(座標:線-Z)を設定
 7. 額縁のON/OFFとワールド固定のメニューを作る
+8. 動作確認(Gesture Manager)
 ### →長い！難しい！授業内で終わらない；；
 
 ---
@@ -320,7 +321,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=シンプルな額縁を作成.gif)
+![bg right](./images/6_1_1.gif)
 
 ### 1-1. 額縁の親GameObjectを生成
 - **空のGameObjectの生成方法:** <br>Hierarchyウィンドウを右クリックして`Create Empty`
@@ -330,7 +331,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=額縁の前面・背面を作成.gif)
+![bg right](./images/6_1_2.gif)
 
 ### 1-2. 額縁の前面・背面を作成
 - **Quadの生成方法:** <br>額縁の中でHierarchyを右クリックして`3D Object > Quad`
@@ -341,7 +342,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=シンプルな額縁を作成_上下.gif)
+![bg right](./images/6_1_3.gif)
 
 ### 1-3. 額縁の上下のフレームを作成
 - **Cubeの生成方法:** <br>額縁の中でHierarchyを右クリックして`3D Object > Cube`
@@ -352,7 +353,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=シンプルな額縁を作成_側面.gif)
+![bg right](./images/6_1_4.gif)
 
 ### 1-4. 額縁の側面のフレームを作成
 - **Cubeの生成方法:** <br>額縁の中でHierarchyを右クリックして`3D Object > Cube`
@@ -363,7 +364,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=シンプルな額縁を作成_マテリアルを作成.gif)
+![bg right](./images/6_1_5.gif)
 
 ### 1-5. 額縁の前面・背面のマテリアルを作成
 - **マテリアルの生成方法:** <br>Projectウィンドウを右クリックして`Create > Material`
@@ -373,7 +374,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=シンプルな額縁を作成_マテリアル.gif)
+![bg right](./images/6_1_6.gif)
 
 ### 1-6. 額縁の前面・背面にマテリアルを適用
 - **前面のマテリアルを設定:** <br>作成したマテリアルを前面Quadにドラッグ&ドロップして適用する
@@ -383,7 +384,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=シンプルな額縁を作成_マテリアル半透明.gif)
+![bg right](./images/6_1_7.gif)
 
 ### 1-7. 額縁の前面・背面を半透明にする
 - **半透明:** <br>`描画モード`を半透明、基本設定の`ZWrite`のチェックを外す
@@ -394,7 +395,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=アバターの全メッシュのルートボーンを額縁に設定.gif)
+![bg right](./images/6_2_1.gif)
 
 ### 2-1. アバターの全メッシュのルートボーン設定
 - **ルートボーンの作成:**<br> 空のGameObjectを作成してルートボーンと分かる名前にする
@@ -404,7 +405,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=アバターの全メッシュのルートボーンを額縁に設定.gif)
+![bg right](./images/6_2_2.gif)
 
 ### 2-2. ルートボーンを額縁に追従させる
 - **追従用のGameObjectを作成:** <br>空のGameObjectを作成して追従用と分かる名前にする
@@ -414,7 +415,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=額縁の前面の板をStencil(Writer)にして値を決める.gif)
+![bg right](./images/6_3.gif)
 
 ### 3. 額縁の前面の板をStencil(Writer)にして値を決める
 - **Writer設定:**<br>額縁の前面のマテリアルを生成して`基本設定`最下部の`通常`から`Writer`に変更する
@@ -424,7 +425,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=アバターの全マテリアルを額縁の外側と内側用に2つコピー.gif)
+![bg right](./images/6_4_gif)
 
 ### 4. アバターの全マテリアルを額縁の外側・内側用に2つコピー
 - **名前の変更:** <br>`<元の名前>_<Outside/Inside>`など名前をつけて判別しやすくする
@@ -434,7 +435,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=額縁の外側用の空のマテリアルを作成.gif)
+![bg right](./images/6_5_1.gif)
 
 ### 5-1. 額縁の外側用の空のマテリアルを作成
 - **空のマテリアルを作成:** <br>マテリアルを生成してliltoonに変換
@@ -444,7 +445,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=額縁の外側用の空のマテリアルを作成.gif)
+![bg right](./images/6_5_2.gif)
 
 ### 5-2. 額縁の外側用の空マテリアルにStencil(Reader)を設定
 - **Reader:** <br>基本設定の最下部にある`通常`を`Reader`に変更
@@ -454,7 +455,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=額縁の外側用の空マテリアルにDissolve(座標:線)を設定.gif)
+![bg right](./images/6_5_3.gif)
 
 ### 5-3. 額縁の外側用の空マテリアルにDissolve(座標:線)を設定
 - **Dissolve:** <br>詳細設定の`Dissolve`にある`座標`を`線`に変更する
@@ -465,7 +466,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=額縁の外側用のマテリアルプリセット保存画面を開く.gif)
+![bg right](./images/6_5_4.gif)
 
 ### 5-4. 額縁の外側用のマテリアルプリセット保存画面を開く
 - **プリセット画面を開く:** <br>マテリアル設定の上部にある`プリセット`を開く
@@ -475,7 +476,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=額縁の外側用の空マテリアルをマテリアルプリセットに登録.gif)
+![bg right](./images/6_5_5.gif)
 
 ### 5-5. 額縁の外側用のマテリアルプリセットを作成
 1. `名前`に「絵画ギミック_外側」など判別しやすい名前をつける
@@ -488,7 +489,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=額縁の外側用の全マテリアルにマテリアルプリセットを適用.gif)
+![bg right](./images/6_5_6.gif)
 
 ### 5-6. 額縁の外側用の全マテリアルにマテリアルプリセットを適用
 - **適用したいマテリアルを選択:** <br>額縁の外側用マテリアルを選択
@@ -499,7 +500,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=額縁の内側用の空のマテリアルを作成.gif)
+![bg right](./images/6_6_1.gif)
 
 ### 6-1. 額縁の外側用の空マテリアルをコピーして内側とする
 - **コピーを作成:** <br>外側用のマテリアルをProjectウィンドウで選択してコピペ、もしくはCtrl+Dで複製
@@ -509,7 +510,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=額縁の内側用の全マテリアルにStencil(Reader:反転)を設定.gif)
+![bg right](./images/6_6_2.gif)
 
 ### 6-2. 内側用の空マテリアルの設定
 - **Reader(反転):** <br>基本設定の最下部にある`通常`を`Reader(反転)`に変更
@@ -527,7 +528,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=額縁のON/OFFとワールド固定のメニューを作る.gif)
+![bg right](./images/6_7_1.gif)
 
 ### 7-1.額縁のON/OFFのメニューを作る
 - **メニューの作成方法:** <br>空のGameObjectを生成して`MA Menu Item`と`MA Menu Installer`をつける
@@ -537,7 +538,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=額縁のON/OFFとワールド固定のメニューを作る.gif)
+![bg right](./images/6_7_2.gif)
 
 ### 7-2.額縁のワールド固定
 - **額縁をワールド固定:** <br>額縁に`MA World Fixed`をつける
@@ -547,7 +548,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg changed -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=額縁のワールド固定メニューを作る)
+![bg right](./images/6_7_3.gif)
 
 ### 7-3. ワールド固定のメニューを作る
 - **メニューの作成方法:** <br>空のGameObjectを生成して`MA Menu Item`と`MA Menu Installer`をつける
@@ -557,9 +558,9 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 <!-- _class: bg -->
 
-![bg right](https://placehold.jp/32/444444/ffffff/720x1280.png?text=動作確認(GestureManager).gif)
+![bg right](6_8.gif)
 
-### 動作確認(GestureManager)
+### 8. 動作確認(GestureManager)
 アバターや額縁を動かしたり、メニューからON/OFFやワールド固定を試してみよう
 
 **全部が正常に動いたら...**
