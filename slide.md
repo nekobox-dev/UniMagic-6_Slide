@@ -440,7 +440,7 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ### 2-2. ルートボーンを額縁に追従させる
 - **追従用のGameObjectを作成:** <br>空のGameObjectを作成して追従用と分かる名前にする
-- **追従設定:** <br>`VRC Parent Constraint`をつけて`Sources`に額縁、`Advanced Settings > Target Transform`にルートボーンを設定
+- **追従設定:** <br>`VRC Parent Constraint`をつけて`Sources`に額縁、`Advanced Settings > Target Transform`にルートボーンを設定後に`Zero`を押す
 
 ---
 
