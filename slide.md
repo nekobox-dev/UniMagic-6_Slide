@@ -334,8 +334,8 @@ Writer越しに見たときにRefの値が同じなら表示 (Equal)
 
 ### 1-2. 額縁の前面・背面を作成
 - **Quadの生成方法:** <br>額縁の中でHierarchyを右クリックして`3D Object > Quad`
-- **前面を作成:** <br>前面用のQuadを生成後に`Transform > Rotation > Y`を90にして正面(+Z)に向ける
-- **背面を作成:** <br>背面用のQuadを生成後に`Transform > Rotation > Y`を-90にして背面(-Z)に向ける
+- **前面を作成:** <br>前面用のQuadを生成後に`Transform > Rotation > Y`を180にして正面(+Z)に向ける
+- **背面を作成:** <br>背面用のQuadを生成後に`Transform > Rotation > Y`を-180にして背面(-Z)に向ける
 
 ---
 
