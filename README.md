@@ -1,5 +1,5 @@
 ## UniMagic-6_Slide
-スライドの出力結果は下記のリンクです。↓
+スライドの出力結果は下記のリンクです。↓<br>
 https://nekobox-dev.github.io/UniMagic-6_Slide/
 
 [**Marp**](https://marp.app/) というスライド作成ツールを使っています。<br>
