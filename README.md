@@ -1,6 +1,6 @@
 ## UniMagic-6_Slide
 
-[**スライドを開く**](https://nekobox-dev.github.io/UniMagic-6_Slide/)
+[**スライドを開く**](https://nekobox-dev.github.io/unimagic-06-slide/)
 
 [**Marp**](https://marp.app/) というスライド作成ツールを使っています。<br>
 レイアウトに悩むことのない爆速での制作体験が非常に良かったためシェアハピでスライドの中身を公開します。<br>
